@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Scripting Thoughts</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" aria-label="Go to home page">
+                <img src="assets/images/avatar34.svg" alt="Scripting Thoughts Logo">
+            </a>
+            <nav class="flex flex-nowrap">
+                <a href="#projects">Projects</a>
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <section class="about-section">
+                <h1>Hey, I'm Antonio!</h1>
+                <article>
+                    <!-- <img src="assets/images/avatar33.svg" alt=""> -->
+                    <p>
+                        I’m a software engineer with a passion for building meaningful, user-focused experiences. 
+                        My journey began in 2005, crafting templates for Myspace profiles, and has since evolved into a 
+                        career rooted in creativity, precision, and curiosity.
+                    </p>
+                    <p>
+                        This space is where I share my creations, thoughts, and interactive explorations of code and design.
+                    </p>
+                </article>
+            </section>
+            <section id="projects" class="featured-projects-section"> 
+                <h1>Projects</h1> 
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h2>Comment Thing</h2>
+                        <p>This web app lets users search for any song, podcast episode, or audiobook directly from Spotify’s catalog using the Spotify Web API. Once a piece of media is selected, users can leave comments, reply to others, and engage in conversations centered around what they’re listening to.</p>
+                        <div class="tools-container">
+                            <span>Tools:</span>
+                            <div class="tools-used-container">
+                                <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>Javascript</li>
+                                    <li>PHP</li>
+                                    <li>MongoDB</li>
+                                    <li>Figma</li>
+                                    <li>Spitify API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-action-container">
+                            <a class="view-project-link" href="https://commentthing.com" target="_blank">View</a>
+                            <div class="github-container">
+                                <img src="/public/assets/icons/github-fill.svg" alt="Github Icon">
+                                <a href="https://github.com/ScriptingNotions" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h2>Sixty7Framez Photo Booths</h2>
+                        <p>A website built for a photo booth rental company, designed to streamline the booking process and improve client experience. Users can view available packages, select a date and time, and secure their rental through an integrated Stripe payment system. The custom-built booking system handles availability, client details, and payment confirmation, making the entire process seamless from start to finish.</p>
+                        <div class="tools-container">
+                            <span>Tools:</span>
+                            <div class="tools-used-container">
+                                <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>Javascript</li>
+                                    <li>PHP</li>
+                                    <li>Google Cloud</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-action-container">
+                            <a class="view-project-link" href="https://sixty7framezphotobooths.com/" target="_blank">View</a>
+                            <div class="github-container">
+                                <img src="/public/assets/icons/github-fill.svg" alt="Github Icon">
+                                <a href="https://github.com/ScriptingNotions" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h2>Real-Time Group Chat</h2>
+                        <p>A real-time messaging app that lets users create group chats and communicate instantly. Built using Socket.IO.</p>
+                        <div class="tools-container">
+                            <span>Tools:</span>
+                            <div class="tools-used-container">
+                                <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>NodeJs</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-action-container">
+                            <a class="view-project-link" href="https://node-chat-app-production-d5c8.up.railway.app/" target="_blank">View</a>
+                            <div class="github-container">
+                                <img src="/public/assets/icons/github-fill.svg" alt="Github Icon">
+                                <a href="https://github.com/ScriptingNotions" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="currentYear"></span> | Scripting Thoughts</p>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
