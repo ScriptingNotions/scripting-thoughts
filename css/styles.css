@@ -77,7 +77,6 @@ p {
 .about-section h1 {
     font-size: clamp(2.3rem, 3vw, 3rem);
     font-weight: 700;
-    font-family: "Outfit", sans-serif;
 }
 
 .about-section article {
@@ -94,7 +93,6 @@ p {
 .featured-projects-section h1 {
     font-size: clamp(1.2rem, 1.2vw, 1.7rem);
     font-weight: 600;
-    font-family: "Outfit", sans-serif;
 }
 
 #projects {
